@@ -1,0 +1,11 @@
+try pyliblo for faster OSC implementation and python3 compatibility
+
+make a battery voltage monitor circuit for both batteries
+
+motor control:
+EnA     in1     in2     Out1    Out2    Motor1
+LOW     X       X       Z       Z       Stop
+HIGH    HIGH    LOW                     forward
+HIGH    LOW     HIGH                    backward
+HIGH    HIGH    HIGH    
+
